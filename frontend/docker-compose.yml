@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+networks:
+  default:
+    external:
+      name: app-network
+
+
+#docker network create shared-network
+# docker network rm shared-network
+# docker network ls
+#docker compose up
