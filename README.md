@@ -117,8 +117,3 @@ The app will be available at:
 * Session logs with device, IP, and timestamp
 * Real-time OTP validation using WebSockets for multiple devices
 * Max 2 concurrent sessions per user
-
-
-
-Do you also want me to **add a folder structure diagram** (frontend/backend separation) in the README so recruiters can easily understand your project architecture?
-```
